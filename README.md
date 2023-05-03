@@ -43,22 +43,22 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 | Requisito                                      | Descrição                                                                   | Ator     |
 | ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
-| RF001 Gerenciamento de Funcionários    | permitir o cadastro de funcionários, controle de acesso e gerenciamento de salários. | Gerente |
-| RF002 Gerenciamento de Fornecedores     | permitir o cadastro de fornecedores, gestão dos pedidos e controle de pagamentos.    | Gerente |
-| RF003 Gestão de estoque       | possibilitar o cadastro de produtos, atualização do estoque e controle do inventário, permitindo a busca e atualização do estoque em tempo real. | Gerente, Vendedor | 
-| RF004 Controle de vendas | possibilitar a emissão de notas fiscais, gerenciamento do caixa e cadastro de clientes. | Gerente, Vendedor, Caixa |
-| FR005 Relatórios gerenciais | gerar relatórios personalizados de vendas, estoque e desempenho financeiro. | Gerente |
+| RF001 - Gerenciamento de Funcionários    | permitir o cadastro de funcionários, controle de acesso e gerenciamento de salários. | Gerente |
+| RF002 - Gerenciamento de Fornecedores     | permitir o cadastro de fornecedores, gestão dos pedidos e controle de pagamentos.    | Gerente |
+| RF003 - Gestão de estoque       | possibilitar o cadastro de produtos, atualização do estoque e controle do inventário, permitindo a busca e atualização do estoque em tempo real. | Gerente, Vendedor | 
+| RF004 - Controle de vendas | possibilitar a emissão de notas fiscais, gerenciamento do caixa e cadastro de clientes. | Gerente, Vendedor, Caixa |
+| FR005 - Relatórios gerenciais | gerar relatórios personalizados de vendas, estoque e desempenho financeiro. | Gerente |
 
 
 ## Lista de Requisitos Não-Funcionais
 
 | Requisito                                    | Descrição                                                                                    |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| RNF001 - Usabilidade        | a aplicação deve ser fácil de usar e intuitiva, com design responsivo e acessibilidade.                                       |
-| RNF002 - Performance                       | a aplicação deve ser capaz de lidar com grande volume de dados e usuários simultâneos, com tempos de resposta rápidos e sem tempo de inatividade. |
-| RNF003 - Segurança | a aplicação deve ter medidas de segurança adequadas, como criptografia, autenticação de usuário e controle de acesso baseado em função. |
-| RNF004 - Manutenção | a aplicação deve ser fácil de manter e atualizar, com documentação clara e suporte técnico disponível. |
-| RN005 - Escalabilidade | a aplicação deve ser escalável para acomodar o crescimento do negócio, sem necessidade de reformulação ou retrabalho. |
+| RNF001  |Usabilidade: a aplicação deve ser fácil de usar e intuitiva, com design responsivo e acessibilidade.                                       |
+| RNF002  | Performance: a aplicação deve ser capaz de lidar com grande volume de dados e usuários simultâneos, com tempos de resposta rápidos e sem tempo de inatividade. |
+| RNF003 | Segurança: a aplicação deve ter medidas de segurança adequadas, como criptografia, autenticação de usuário e controle de acesso baseado em função. |
+| RNF004 | Manutenção: a aplicação deve ser fácil de manter e atualizar, com documentação clara e suporte técnico disponível. |
+| RN005  | Escalabilidade: a aplicação deve ser escalável para acomodar o crescimento do negócio, sem necessidade de reformulação ou retrabalho. |
 
 ## Riscos
 
