@@ -41,36 +41,24 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 ## Lista de Requisitos Funcionais
 
-| Requisito                                         | Descrição                                                                   | Ator     |
-| ------------------------------------------------- | --------------------------------------------------------------------------- | -------- |
-| RF01 - Incluir Produto                            | Um produto tem os atributos nome, quant_estoque, marca, preco               | Gerente  |
-| RF02 - Alterar Produto                            | A alteração permite a mudança de todos os atributos de um produto           | Gerente  |
-| RF03 - Listar Produto                             | Lista todos os produtos cadastrados                                         | Gerente  | 
-| RF04 - Visualizar Produto                         | Visualiza todas as informações sobre um produto específico                  | Gerente  |
-| RF05 - Excluir Produto                            | Remove produtos                                                             | Gerente  |
-| RF06 - Emitir Relatório                           | Emiti relatórios semanais, mensais e anuais                                 | Gerente  | 
-| RF07 - Incluir Cliente                            | Um cliente tem os atributos nome, cpf, endereço, telefone                   | Vendedor |
-| RF08 - Alterar Cliente                            | A alteração permite a mudança de todos os atributos de um cliente           | Vendedor |
-| RF09 - Listar Cliente                             | Lista todos os clientes cadastrados                                         | Vendedor |
-| RF10 - Visualizar Cliente                         | Visualiza as informações de um cliente específico                           | Vendedor |
-| RF11 - Excluir Cliente                            | Remove um cliente                                                           | Vendedor |
-| RF11 - Realizar Venda                             | Realiza uma venda                                                           | Vendedor |
-| RF12 - Realizar Orçamento                         | Realiza orçamentos para uma venda                                           | Vendedor |
-| RF13 - Abir caixa                                 | Abre  o caixa                                                               | Caixa    |
-| RF14 - Fechar caixa                               | Fecha o caixa                                                               | Caixa    |
-| RF15 - Finalizar compra                           | Finaliza uma compra                                                         | Caixa    |
-| RF16 - Incluir Usuário                            | Um usuário contém nome, email, username e data de nascimento               | Gerente  |
-| RF17 - Alterar Usuário                            | Altera dados cadastrais do usuário          | Gerente  |
-| RF18 - Listar Usuário                            | Exibe as informações básicas do usuário cosultado                                         | Gerente  | 
-| RF19 - Visualizar Usuário                        | Exibe as informações detalhadas do usuário                 | Gerente  |
-| RF20 - Excluir Usuário                            | Remove a conta do usuário do sistema                                        | Gerente  |
+| Requisito                                      | Descrição                                                                   | Ator     |
+| ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
+| RF001 Gerenciamento de Funcionários    | permitir o cadastro de funcionários, controle de acesso e gerenciamento de salários. | Gerente |
+| RF002 Gerenciamento de Fornecedores     | permitir o cadastro de fornecedores, gestão dos pedidos e controle de pagamentos.    | Gerente |
+| RF003 Gestão de estoque       | possibilitar o cadastro de produtos, atualização do estoque e controle do inventário, permitindo a busca e atualização do estoque em tempo real. | Gerente, Vendedor | 
+| RF004 Controle de vendas | possibilitar a emissão de notas fiscais, gerenciamento do caixa e cadastro de clientes. | Gerente, Vendedor, Caixa |
+| FR005 Relatórios gerenciais | gerar relatórios personalizados de vendas, estoque e desempenho financeiro. | Gerente |
+
 
 ## Lista de Requisitos Não-Funcionais
 
 | Requisito                                    | Descrição                                                                                    |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| RNF001 - Consultas deve ser eficiente        | O sistema deve executar as consultas em milessegundos.                                       |
-| RNF002 - Log de acesso                       | Deve manter um log de todos os acessos.                                                      |
+| RNF001 - Usabilidade        | a aplicação deve ser fácil de usar e intuitiva, com design responsivo e acessibilidade.                                       |
+| RNF002 - Performance                       | a aplicação deve ser capaz de lidar com grande volume de dados e usuários simultâneos, com tempos de resposta rápidos e sem tempo de inatividade. |
+| RNF003 - Segurança | a aplicação deve ter medidas de segurança adequadas, como criptografia, autenticação de usuário e controle de acesso baseado em função. |
+| RNF004 - Manutenção | a aplicação deve ser fácil de manter e atualizar, com documentação clara e suporte técnico disponível. |
+| RN005 - Escalabilidade | a aplicação deve ser escalável para acomodar o crescimento do negócio, sem necessidade de reformulação ou retrabalho. |
 
 ## Riscos
 
