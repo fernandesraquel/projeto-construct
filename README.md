@@ -5,9 +5,10 @@
 
 ## Histórico de Revisões 
 
-| Data       | Versão | Descrição                                   | Autor(es)                |
-| ---------- | ------ | ------------------------------------------- | ------------------------ |
-| 08/04/2021 | 1.0    | Documento Inicial                           | Raquel Lima Fernandes    |
+| Data       | Versão  | Descrição                                   | Autor(es)                |
+| ---------- | ------- | ------------------------------------------- | ------------------------ |
+| 08/04/2021 | 1.0.0   | Documento Inicial                           | Raquel Lima Fernandes    |
+| 03/05/2021 | 1.1.0   | Inclusão de atores e atualização dos RF     | Raquel Lima Fernandes    |
 
 ## Equipe e Definição de Papéis
 
@@ -23,10 +24,10 @@
 
 | Membro       | Competências                                                                                                      |
 | ------------ | ----------------------------------------------------------------------------------------------------------------- |
-| Annielly     | Software Tester Desenvolvedora JavaScript, Python                                                                 |
+| Annielly     | Desenvolvedora JavaScript, Python                                                                                 |
 | José Cláudio | Desenvolvedor Javascript, Python                                                                                  |
 | Maicon       | Desenvolvedor Python, Django, JavaScript                                                                          |
-| Raquel       | Gerente e Desenvolvedora Javascript, React, Nexjtjs, Python, C, PostgreSQL                                        |  
+| Raquel       | Desenvolvedora Javascript, React, Nexjtjs, Python, C, PostgreSQL                                                  |  
 | Renata       | Desenvolvedora Javascript, Python, Django                                                                         |
 
 ## Perfis dos Usuários
@@ -35,9 +36,8 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 | Perfil        | Descrição                                                                                                                                                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Gerente       | Este usuário utiliza as funções de cadastro, edição, alteração e exclusão de produtos, assim como emiti relatórios.                                            |
-| Vendedor      | Este usuário utiliza as funções de cadastro, edição, alteração e exclusão de clientes, assim como realiza vendas e realiza orçamentos.                         |
-| Caixa         | Este usuário utiliza as funções de abrir e fechar caixa, assim como finalizar uma compra.                                                                      |
+| Gerente       | Este usuário precisará de acesso a todas as funcionalidades da aplicação, incluindo gestão de estoque, controle de vendas, gerenciamento de fornecedores e funcionários, e relatórios gerenciais.                                  |
+| Funcionário   | Este usuário inclui vendedores, caixas e outros funcionários que precisam usar a aplicação para realizar suas atividades diárias. Eles precisarão de acesso a funcionalidades como registro de vendas, gestão de estoque, preços e promoções. |
 
 ## Lista de Requisitos Funcionais
 
