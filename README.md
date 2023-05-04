@@ -37,7 +37,7 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 | Perfil        | Descrição                                                                                                                                                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Gerente       | Este usuário precisará de acesso a todas as funcionalidades da aplicação, incluindo gestão de estoque, controle de vendas, gerenciamento de fornecedores e usuários, e relatórios gerenciais.                                  |
-| Vendedor   | Este usuário precisará usar a aplicação para realizar suas atividades diárias. Eles precisarão de acesso a funcionalidades como registro de vendas, gestão de estoque, preços e promoções. |
+| Vendedor   | Este usuário precisará usar a aplicação para realizar suas atividades diárias. Ele precisará de acesso a funcionalidades como registro de vendas, gestão de estoque, preços e promoções. |
 | Fornecedor  | Este usuário não terá acesso a nenhuma das funcionalidades da aplicação. |
 | Cliente  | Este usuário não terá acesso a nenhuma das funcionalidades da aplicação. |
 
