@@ -36,8 +36,8 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 | Perfil        | Descrição                                                                                                                                                      |
 | ------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Gerente       | Este usuário precisará de acesso a todas as funcionalidades da aplicação, incluindo gestão de estoque, controle de vendas, gerenciamento de fornecedores e funcionários, e relatórios gerenciais.                                  |
-| Funcionário   | Este usuário inclui vendedores, caixas e outros funcionários que precisam usar a aplicação para realizar suas atividades diárias. Eles precisarão de acesso a funcionalidades como registro de vendas, gestão de estoque, preços e promoções. |
+| administrador       | Este usuário precisará de acesso a todas as funcionalidades da aplicação, incluindo gestão de estoque, controle de vendas, gerenciamento de fornecedores e funcionários, e relatórios gerenciais.                                  |
+| Usuário   | Este usuário inclui vendedores, caixas e outros funcionários que precisam usar a aplicação para realizar suas atividades diárias. Eles precisarão de acesso a funcionalidades como registro de vendas, gestão de estoque, preços e promoções. |
 
 ## Lista de Requisitos Funcionais
 
