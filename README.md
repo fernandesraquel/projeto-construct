@@ -57,7 +57,7 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 | ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
 | RF001 - Efetuar Login    | funcionalidade realizada por todos os usuários, para obter acesso ao sistema. | Gerente, Vendedor |
 | RF002 - Recuperar senha  | funcionalidade realizada pelos usuários, ao perder a senha, tem a possibilidade de recupará-la pelo e-mail cadastrado. | Gerente, Vendedor |
-| RF003 - Controlar Acesso e Permissões | Esta funcionalidade permite definir níveis de acesso para diferentes usuários, com base em funções e responsabilidades. | Gerente |
+| RF003 - Controlar Permissões | Esta funcionalidade permite definir níveis de acesso para diferentes usuários, com base em funções e responsabilidades. | Gerente |
 | RF004 - Manter Vendedor  | Esta funconalidade permite cadastrar, editar, excluir e visualisar usuários tipo 'vendedor'. | Gerente |
 | RF005 - Manter Fornecedor | Esta funconalidade permite cadastrar, editar, excluir e visualisar os fornecedores da loja. | Gerente |
 | RF006 - Manter Cliente | Esta funconalidade permite cadastrar, editar, excluir e visualisar os clientes da loja. | Gerente, Vendedor |
