@@ -43,13 +43,28 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 ## Lista de Requisitos Funcionais
 
-| Requisito                                      | Descrição                                                                   | Ator     |
+| Requisito                                      | Descrição                                                                   | Ator(es)     |
 | ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
 | RF001 - Gerenciamento de Funcionários    | permitir o cadastro de funcionários, controle de acesso e gerenciamento de salários. | Gerente |
 | RF002 - Gerenciamento de Fornecedores     | permitir o cadastro de fornecedores, gestão dos pedidos e controle de pagamentos.    | Gerente |
 | RF003 - Gestão de estoque       | possibilitar o cadastro de produtos, atualização do estoque e controle do inventário, permitindo a busca e atualização do estoque em tempo real. | Gerente, Vendedor | 
-| RF004 - Controle de vendas | possibilitar a emissão de notas fiscais, gerenciamento do caixa e cadastro de clientes. | Gerente, Vendedor, Caixa |
+| RF004 - Controle de vendas | possibilitar a emissão de notas fiscais, gerenciamento do caixa e cadastro de clientes. | Gerente, Vendedor |
 | FR005 - Relatórios gerenciais | gerar relatórios personalizados de vendas, estoque e desempenho financeiro. | Gerente |
+
+## Lista de Requisitos Funcionais
+
+| Requisito                                      | Descrição                                                                   | Ator(es)     |
+| ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
+| RF001 - Efetuar Login    | funcionalidade realizada por todos os usuários, para obter acesso ao sistema. | Gerente, Vendedor |
+| RF002 - Recuperar senha  | funcionalidade realizada pelos usuários, ao perder a senha, tem a possibilidade de recupará-la pelo e-mail cadastrado. | Gerente, Vendedor |
+| RF003 - Controlar Acesso e Permissões | Esta funcionalidade permite definir níveis de acesso para diferentes usuários, com base em funções e responsabilidades. | Gerente |
+| RF004 - Manter Vendedor  | Esta funconalidade permite cadastrar, editar, excluir e visualisar usuários tipo 'vendedor'. | Gerente |
+| RF005 - Manter Fornecedor | Esta funconalidade permite cadastrar, editar, excluir e visualisar os fornecedores da loja. | Gerente |
+| RF006 - Manter Cliente | Esta funconalidade permite cadastrar, editar, excluir e visualisar os clientes da loja. | Gerente, Vendedor |
+| RF007 - Manter Produto | Esta funconalidade permite cadastrar, editar, excluir e visualisar Produtos do estoque. | Gerente, Vendedor |
+| RF008 - Vender Produto | Esta funcionalidade efetua a exclusão do produto vendido do estoque. | Gerente, Vendedor |
+| RF009 - Gerar Nota     | Esta funcionalidade permite após a venda de produtos é gerado uma nota fiscal eletrônica. | Gerente, Vendedor |
+| RF010 - Emitir Relatórios | Esta funcionalidade permite gerar relatórios personalizados de vendas, estoque e desenpenho financeiro. | Gerente |
 
 
 ## Lista de Requisitos Não-Funcionais
