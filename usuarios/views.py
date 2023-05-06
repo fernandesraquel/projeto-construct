@@ -34,23 +34,21 @@ def cadastrar_vendedor(request):
 def login(request):
     if request.method == "GET":
         if request.user.is_authenticated:
-            return redirect(reverse('Plataforma'))
+            return redirect(reverse('plataforma'))
         return render(request, 'login.html')
     elif request.method == "POST":
         login = request.POST.get('email')
         senha = request.POST.get('senha')
 
         user = auth.authenticate(username=login, password=senha)
-        
+
         if not user:
             #TODO: Redirecionar com mensagem de erro
             return HttpResponse('Usuário inválido')
-        
+
         auth.login(request, user)
         return HttpResponse('Usuário logado com sucesso')
 
 def logout(request):
     request.session.flush()
     return redirect(reverse('login'))
-    
-
