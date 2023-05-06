@@ -14,13 +14,13 @@
 
 | Membro       | Papel                                      | E-mail                       | GitHub                                           |
 | ------------ | ------------------------------------------ | ---------------------------- | ------------------------------------------------ |
-| Annielly     | Gerente, Analista, Testador, Desenvolvedor | anniefs2021@gmail.com        |[Clique aqui](https://github.com/Anniellyfs)      |
-| José Cláudio | Gerente, Analista, Testador, Desenvolvedor | zeclaudio_jr@yahoo.com.br    |[Clique aqui](https://github.com/ZeClaudio-Jr)    |
-| Maicon       | Gerente, Analista, Testador, Desenvolvedor | marc.douglas630@gmail.com    |[Clique aqui](https://github.com/wanessabezerra)  |
-| Raquel       | Gerente, Analista, Testador, Desenvolvedor | fernandeslimaraquel@gmail.com|[Clique aqui](https://github.com/fernandesraquel) |
-| Renata       | Gerente, Analista, Testador, Desenvolvedor | renata.k.a@hotmail.com       |[Clique aqui](https://github.com/renatak12)       |
+| Annielly     | Gerente, Analista, Testador, Desenvolvedor | anniefs2021@gmail.com        |[Link](https://github.com/Anniellyfs)      |
+| José Cláudio | Gerente, Analista, Testador, Desenvolvedor | zeclaudio_jr@yahoo.com.br    |[Link](https://github.com/ZeClaudio-Jr)    |
+| Maicon       | Gerente, Analista, Testador, Desenvolvedor | marc.douglas630@gmail.com    |[Link](https://github.com/wanessabezerra)  |
+| Raquel       | Gerente, Analista, Testador, Desenvolvedor | fernandeslimaraquel@gmail.com|[Link](https://github.com/fernandesraquel) |
+| Renata       | Gerente, Analista, Testador, Desenvolvedor | renata.k.a@hotmail.com       |[Link](https://github.com/renatak12)       |
 
-[![link](https://media.istockphoto.com/id/911552050/pt/vetorial/external-link-icon.jpg?s=32x32&w=0&k=20&c=TrcNh9NzY4mkYQUW8xnKY_GN4dE5E0jKrybY8-0YfR8=)](https://github.com/fernandesraquel)
+
 
 ## Matriz de Competências
 
@@ -63,11 +63,11 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 
 | Requisito                                    | Descrição                                                                                    |
 | -------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| RNF001  |Usabilidade: a aplicação deve ser fácil de usar e intuitiva, com design responsivo e acessibilidade.                                       |
-| RNF002  | Performance: a aplicação deve ser capaz de lidar com grande volume de dados e usuários simultâneos, com tempos de resposta rápidos e sem tempo de inatividade. |
-| RNF003 | Segurança: a aplicação deve ter medidas de segurança adequadas, como criptografia, autenticação de usuário e controle de acesso baseado em função. |
-| RNF004 | Manutenção: a aplicação deve ser fácil de manter e atualizar, com documentação clara e suporte técnico disponível. |
-| RN005  | Escalabilidade: a aplicação deve ser escalável para acomodar o crescimento do negócio, sem necessidade de reformulação ou retrabalho. |
+| RNF001  |**Usabilidade**: a aplicação deve ser fácil de usar e intuitiva, com design responsivo e acessibilidade.                                       |
+| RNF002  | **Performance**: a aplicação deve ser capaz de lidar com grande volume de dados e usuários simultâneos, com tempos de resposta rápidos e sem tempo de inatividade. |
+| RNF003 | **Segurança**: a aplicação deve ter medidas de segurança adequadas, como criptografia, autenticação de usuário e controle de acesso baseado em função. |
+| RNF004 | **Manutenção**: a aplicação deve ser fácil de manter e atualizar, com documentação clara e suporte técnico disponível. |
+| RN005  | **Escalabilidade**: a aplicação deve ser escalável para acomodar o crescimento do negócio, sem necessidade de reformulação ou retrabalho. |
 
 ## Riscos
 
