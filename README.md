@@ -78,3 +78,5 @@ Tabela com o mapeamento dos riscos do projeto, as possíveis soluções e os res
 | 08/04/2023 | Não aprendizado das ferramentas utilizadas pelos componentes da equipe | Alta       | Gerente     | Vigente | Reforçar estudos sobre as ferramentas.                         |
 | 08/04/2023 | Ausência por qualquer membro da equipe                                 | Média      | Gerente     | Vigente | Planejar o cronograma tendo em base a agenda dos membros.      |
 | 08/04/2023 | Divisão de tarefas mal sucedida                                        | Baixa      | Gerente     | Vigente | Acompanhar de perto o desenvolvimento de cada membro da equipe |
+
+## Modelo Conceitual 
