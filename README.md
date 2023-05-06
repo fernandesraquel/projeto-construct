@@ -20,6 +20,8 @@
 | Raquel       | Gerente, Analista, Testador, Desenvolvedor | fernandeslimaraquel@gmail.com|[Clique aqui](https://github.com/fernandesraquel) |
 | Renata       | Gerente, Analista, Testador, Desenvolvedor | renata.k.a@hotmail.com       |[Clique aqui](https://github.com/renatak12)       |
 
+[![link](https://media.istockphoto.com/id/911552050/pt/vetorial/external-link-icon.jpg?s=32x32&w=0&k=20&c=TrcNh9NzY4mkYQUW8xnKY_GN4dE5E0jKrybY8-0YfR8=)](https://github.com/fernandesraquel)
+
 ## Matriz de Competências
 
 | Membro       | Competências                                                                                                      |
