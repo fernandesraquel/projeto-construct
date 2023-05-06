@@ -48,14 +48,13 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 | Requisito                                      | Descrição                                                                   | Ator(es)     |
 | ---------------------------------------------- | ---------------------------------------------------------------- | -------- |
 | RF001 - Efetuar Login    | funcionalidade realizada por todos os usuários, para obter acesso ao sistema. | Gerente, Vendedor |
-| RF002 - Recuperar senha  | funcionalidade realizada pelos usuários, ao perder a senha, tem a possibilidade de recupará-la pelo e-mail cadastrado. | Gerente, Vendedor |
-| RF003 - Manter Vendedor  | Esta funconalidade permite cadastrar, editar, excluir e visualisar usuários tipo 'vendedor'. | Gerente |
-| RF004 - Manter Fornecedor | Esta funconalidade permite cadastrar, editar, excluir e visualisar os fornecedores da loja. | Gerente |
-| RF005 - Manter Cliente | Esta funconalidade permite cadastrar, editar, excluir e visualisar os clientes da loja. | Gerente, Vendedor |
-| RF006 - Manter Produto | Esta funconalidade permite cadastrar, editar, excluir e visualisar produtos do estoque. | Gerente, Vendedor |
-| RF007 - Efetuar Venda | Esta funcionalidade efetua a exclusão do produto vendido do estoque. | Gerente, Vendedor |
-| RF008 - Gerar Nota     | Esta funcionalidade permite após a compra e venda de produtos é gerado uma nota fiscal eletrônica. | Gerente, Vendedor |
-| RF009 - Emitir Relatórios | Esta funcionalidade permite gerar relatórios personalizados de vendas, estoque e desenpenho financeiro. | Gerente |
+| RF002 - Manter Vendedor  | Esta funconalidade permite cadastrar, editar, excluir e visualisar usuários tipo 'vendedor'. | Gerente |
+| RF003 - Manter Fornecedor | Esta funconalidade permite cadastrar, editar, excluir e visualisar os fornecedores da loja. | Gerente |
+| RF004 - Manter Cliente | Esta funconalidade permite cadastrar, editar, excluir e visualisar os clientes da loja. | Gerente, Vendedor |
+| RF005 - Manter Produto | Esta funconalidade permite cadastrar, editar, excluir e visualisar produtos do estoque. | Gerente, Vendedor |
+| RF006 - Efetuar Venda | Esta funcionalidade efetua a exclusão do produto vendido do estoque. | Gerente, Vendedor |
+| RF007 - Gerar Nota     | Esta funcionalidade permite após a compra e venda de produtos é gerado uma nota fiscal eletrônica. | Gerente, Vendedor |
+| RF008 - Emitir Relatórios | Esta funcionalidade permite gerar relatórios personalizados de vendas, estoque e desenpenho financeiro. | Gerente |
 
 
 ## Lista de Requisitos Não-Funcionais
