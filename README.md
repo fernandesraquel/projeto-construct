@@ -51,7 +51,7 @@ O sistema poderá ser utilizado por usuários. Temos os seguintes perfis/atores:
 | RF004 - Manter Vendedor  | Esta funconalidade permite cadastrar, editar, excluir e visualisar usuários tipo 'vendedor'. | Gerente |
 | RF005 - Manter Fornecedor | Esta funconalidade permite cadastrar, editar, excluir e visualisar os fornecedores da loja. | Gerente |
 | RF006 - Manter Cliente | Esta funconalidade permite cadastrar, editar, excluir e visualisar os clientes da loja. | Gerente, Vendedor |
-| RF007 - Manter Produto | Esta funconalidade permite cadastrar, editar, excluir e visualisar Produtos do estoque. | Gerente, Vendedor |
+| RF007 - Manter Produto | Esta funconalidade permite cadastrar, editar, excluir e visualisar produtos do estoque. | Gerente, Vendedor |
 | RF008 - Vender Produto | Esta funcionalidade efetua a exclusão do produto vendido do estoque. | Gerente, Vendedor |
 | RF009 - Gerar Nota     | Esta funcionalidade permite após a venda de produtos é gerado uma nota fiscal eletrônica. | Gerente, Vendedor |
 | RF010 - Emitir Relatórios | Esta funcionalidade permite gerar relatórios personalizados de vendas, estoque e desenpenho financeiro. | Gerente |
