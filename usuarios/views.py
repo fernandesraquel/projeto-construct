@@ -17,6 +17,8 @@ def cadastrar_vendedor(request):
         vendedores = Users.objects.filter(cargo="V")
         return render(request, 'cadastrar_vendedor.html', {'vendedores': vendedores})
     if request.method == "POST":
+        nome = request.POST.get('nome')
+        sobrenome = request.POST.get('sobrenome')
         email = request.POST.get('email')
         senha = request.POST.get('senha')
         
@@ -29,6 +31,8 @@ def cadastrar_vendedor(request):
         user = Users.objects.create_user(username=email,
                                             email=email,
                                             password=senha,
+                                            first_name=nome,
+                                            last_name=sobrenome,
                                             cargo="V")
 
         # TODO: Redirecionar com uma mensagem
