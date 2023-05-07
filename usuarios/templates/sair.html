@@ -8,15 +8,15 @@
             
                 <!-- Icon -->
                 <div class="fadeIn first">
-                    <img src="https://constructberkshires.org/wp-content/themes/construct_2021/assets/images/construct-logo.svg" id="icon" alt="User Icon" />
+                    <img src="https://github.com/fernandesraquel/doc-modelos/blob/main/docs/Component%201.png" id="icon" alt="User Icon" />
                     
                 </div>
                 <br>
                 <!-- Login Form -->
-                <form action="{% url 'login' %}" method="POST">{% csrf_token %}
+                <form action="{% url 'sair' %}" method="POST">{% csrf_token %}
                     <input type="text" id="login" class="fadeIn second" name="email" placeholder="username">
                     <input type="text" id="password" class="fadeIn third" name="senha" placeholder="password">
-                    <input type="submit" class="fadeIn fourth" value="Log In">
+                    <input type="submit" class="fadeIn fourth" value="Log Out">
                 </form>
             
                 <!-- Remind Passowrd -->
@@ -40,4 +40,3 @@
         </div>-->
         
     {% endblock  %}
-    
