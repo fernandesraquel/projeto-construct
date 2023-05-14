@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'fontawesomefree',
     'usuarios',
     'rolepermissions',
     'estoque',
@@ -68,6 +69,10 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
             ],
+        'libraries': {
+            'filters': 'estoque.templatetags.filters'
+        }
+
         },
     },
 ]

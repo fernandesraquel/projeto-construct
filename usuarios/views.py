@@ -41,7 +41,7 @@ def cadastrar_vendedor(request):
 def login(request):
     if request.method == "GET":
         if request.user.is_authenticated:
-            return redirect(reverse('sair.html'))
+            return redirect(reverse('plataforma'))
         return render(request, 'login.html')
     elif request.method == "POST":
         login = request.POST.get('email')

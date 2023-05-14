@@ -1,0 +1,76 @@
+/* Estilos para a barra lateral */
+.sidebar {
+    width: 18%;
+    background-color: white;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    border-right: solid #ddd px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+    }
+    h1 {
+        color: #8AB947;
+    }
+    h5, p {
+        color: dimgray;
+    }
+    .logo img {
+    display: block;
+    height: 90px;
+    padding: 10px;
+    
+    }
+
+    .avatar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    }
+    
+    .avatar-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    }
+
+        
+    .navigation-menu {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    }
+    
+    .navigation-menu li {
+    margin-bottom: 10px;
+    }
+    
+    .navigation-menu li a {
+    display: block;
+    padding: 10px 20px 10px;
+    text-decoration: none;
+    color: dimgray;;
+    }
+    
+    .navigation-menu li a:active {
+    background-color: #ddd;
+    }
+
+    .links_name {
+        margin-left: 10px;
+    }
+    .dropdown {
+        height: 58px;
+    }
+  
+   /* Estilos gerais */
+    body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    }
+    main {
+        margin-left: 300px;
+        margin-right: 300px;
+    }

@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load static %}
 
     {% block 'body' %}
         <div class="wrapper fadeInDown">
@@ -8,36 +8,23 @@
             
                 <!-- Icon -->
                 <div class="fadeIn first">
-                    <img src="https://constructberkshires.org/wp-content/themes/construct_2021/assets/images/construct-logo.svg" id="icon" alt="User Icon" />
+                    <h1 style="margin-top: 20px;">Login</h1>
                     
                 </div>
                 <br>
                 <!-- Login Form -->
                 <form action="{% url 'login' %}" method="POST">{% csrf_token %}
-                    <input type="text" id="login" class="fadeIn second" name="email" placeholder="username">
-                    <input type="text" id="password" class="fadeIn third" name="senha" placeholder="password">
-                    <input type="submit" class="fadeIn fourth" value="Log In">
+                    <input type="text" id="login" class="fadeIn second" name="email" placeholder="Nome de usuário...">
+                    <input type="text" id="password" class="fadeIn third" name="senha" placeholder="Senha...">
+                    <input type="submit" class="fadeIn fourth" value="Entar">
                 </form>
             
                 <!-- Remind Passowrd -->
                 <div id="formFooter">
-                    <a class="underlineHover" href="#">Go to the Site</a>
+                    <a class="underlineHover" href="#">Esqueci a senha</a>
                 </div>
             </div>
         </div>
-        <!--<div class="container">
-            <form action="{% url 'login' %}" method="POST">{% csrf_token %}
-                <br>
-                <label>E-mail</label>
-                <input type="email" placeholder="Digite seu E-mail..." name="email" class="form-control">
-                <br>
-                <label>Senha</label>
-                <input type="password" placeholder="Digite sua Senha..." name="senha" class="form-control">
-                <br>
-                <input type="submit" class="btn btn-success">
-
-            </form>
-        </div>-->
         
     {% endblock  %}
     
