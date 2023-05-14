@@ -48,21 +48,25 @@
         </form>
         <hr>
         <div class="listar_produtos">
+            <div class="row"> 
+                <h1 style="margin-bottom: 30px;">Lista de Produtos</h1>
             {% for produto in produtos %}
-                <div class="card" style="width: 18rem;">
-                {% if produto|get_first_image %}
-                    <img src="{{produto|get_first_image}}" class="card-img-top" alt="imagens produtos">
-                {% endif %}
-                    <div class="card-body">
-                        <h5 class="card-title">{{produto.nome}}</h5>
-                        <span clss="badge badge-info">{{produto.categoria}}</span>
-                        <br>
-                        <br>
-                        <a href="#" class="btn btn-info">Acessar</a>
+                <div class="col-md" style="display:flex; flex-direction: wrap;">
+                    <div style="width: 16rem;" class="card">
+                    {% if produto|get_first_image %}
+                        <img width="100%" class="card-img-top" src="{{produto|get_first_image}}">
+                    {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{produto.nome}}</h5>
+                            <p>{{produto.categoria}}</p>
+                            <a href="{% url 'produto' produto.slug %}" class="btn btn-primary">Acessar</a>
+                        </div>
                     </div>
+                    <br>
                 </div>
             {% endfor %}
-
+            </div> 
+    
         </div>
     </div>
 {% endblock %}
