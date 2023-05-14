@@ -15,8 +15,31 @@ from .forms import ProdutoForm
 @has_permission_decorator('cadastrar_produtos')
 def add_produto(request):
     if request.method == "GET":
-        categorias = Categoria.objects.all()
+        nome = request.GET.get('nome')
+        categoria = request.GET.get('categoria')
+        preco_min = request.GET.get('preco_min')
+        preco_max = request.GET.get('preco_max')
         produtos = Produto.objects.all()
+
+        if nome or categoria or preco_min or preco_max:
+            
+            if not preco_min:
+                preco_min = 0
+
+            if not preco_max:
+                preco_max = 9999999
+
+            if nome:
+                produtos = produtos.filter(nome__icontains=nome)
+
+            if categoria:
+                produtos = produtos.filter(categoria=categoria)
+
+            produtos = produtos.filter(preco_venda__gte=preco_min).filter(preco_venda__lte=preco_max)
+
+
+
+        categorias = Categoria.objects.all()       
         return render(request, 'add_produto.html', {'categorias': categorias, 'produtos': produtos})
     elif request.method == "POST":
         nome = request.POST.get('nome')
@@ -24,14 +47,13 @@ def add_produto(request):
         quantidade = request.POST.get('quantidade')
         preco_compra = request.POST.get('preco_compra')
         preco_venda = request.POST.get('preco_venda')
-        imagens = request.FILES.getlist('imagens')
+
+        produto = Produto(nome=nome,
+                            categoria_id=categoria,
+                            quantidade=quantidade,
+                            preco_compra=preco_compra,
+                            preco_venda=preco_venda)
         
-        produto = Produto(nome=nome, 
-                          categoria_id=categoria, 
-                          quantidade=quantidade, 
-                          preco_compra=preco_compra, 
-                          preco_venda=preco_venda
-        )
         produto.save()
         
         for f in request.FILES.getlist('imagens'):
@@ -46,16 +68,17 @@ def add_produto(request):
             img.save(output, format="JPEG", quality=100)
             output.seek(0)
             img_final = InMemoryUploadedFile(output,
-                                            'ImageField',
-                                            name,
-                                            'image/jpeg',
-                                            sys.getsizeof(output),
-                                            None
+                                                'ImageField',
+                                                name,
+                                                'image/jpeg',
+                                                sys.getsizeof(output),
+                                                None
             )
-        
+
+
             img_dj = Imagem(imagem = img_final, produto=produto)
             img_dj.save()
-        messages.add_message(request, messages.SUCCESS, 'Produto adiconado com sucesso')
+        messages.add_message(request, messages.SUCCESS, 'Produto cadastrado com sucesso')
         return redirect(reverse('add_produto'))
 
 def produto(request, slug):
